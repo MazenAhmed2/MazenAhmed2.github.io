@@ -1,0 +1,62 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url('./Poppins/Poppins-Regular.ttf');
+}
+
+* {
+    margin: 0;
+    font-family: 'Poppins';
+}
+
+.content {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+button.add {
+    border: none;
+    border-radius: 5px;
+    background-color: #9c27b0;
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+
+}
+
+
+input {
+    border-color: #9c27b0;
+    border-radius: 5px;
+    font-size: 24px;
+    border-width: 1px;
+    color: #9c27b0;
+}
+
+/* input:focus {
+    border-color: #571763;
+    border-width: 1px;
+} */
+
+.task {
+    background-color: #9c27b0;
+    width: 353px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.task span {
+    color: white;
+    font-size: 18px;
+}
+
+.task button {
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
